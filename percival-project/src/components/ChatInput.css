@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.send-button {
+  background-color: rgb(25, 135, 84);
+  color: white;
+  font-size: 15px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: opacity 0.15s;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px 0px;
+}
+.send-button:hover {
+  opacity: 0.8;
+}
+
+.input-textbox {
+  outline: none;
+  border-radius: 7px;
+  padding: 15px 5px;
+  font-size: 22px;
+  border: 2px solid gray;
+  flex: 1;
+  text-indent: 10px;
+}
+.input-textbox::placeholder {
+  font-size: 22px;
+}

@@ -1,0 +1,7 @@
+.chat-messages-container {
+  flex: 1;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  margin-top: 30px;
+}
