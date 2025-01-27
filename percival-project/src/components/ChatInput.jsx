@@ -32,7 +32,7 @@ export function ChatInput({ chatMessages, setChatMessages }) {
       },
     ]);
 
-    // saveInputData(""); this results in an undefined
+    saveInputData("");
   }
 
   return (
